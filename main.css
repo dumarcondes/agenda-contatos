@@ -1,0 +1,73 @@
+* {
+        font-family: "Gayathri", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+}
+
+header {
+    padding-top: 30px;
+    padding-left: 700px;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-right: 250px;
+    border-right: 2px solid #e2a46a;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #e2a46a;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e2a111;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.agenda {
+    flex: 2;
+    padding-right: 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+}
